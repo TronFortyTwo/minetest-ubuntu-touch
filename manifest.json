@@ -1,0 +1,16 @@
+{
+	"name": "minetest.emanuelesorce",
+	"description": "Minetest game!",
+	"architecture": "armhf",
+	"title": "minetest",
+	"hooks": {
+		"minetest": {
+			"apparmor": "minetest.apparmor",
+			"desktop": "app.desktop"
+		}
+	},
+	"version": "0.4.16-0.1",
+	"maintainer": "Emanuele Sorce <emanuele.sorce@hotmail.com>",
+	"framework": "ubuntu-sdk-15.04.6"
+}
+
