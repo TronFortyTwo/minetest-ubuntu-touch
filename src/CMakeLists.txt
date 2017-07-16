@@ -572,6 +572,7 @@ set(EXECUTABLE_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/bin")
 if(BUILD_CLIENT)
 	add_executable(${PROJECT_NAME} ${client_SRCS})
 	add_dependencies(${PROJECT_NAME} GenerateVersion)
+	target_link_libraries(${PROJECT_NAME} /usr/lib/arm-linux-gnueabihf/libIrrlicht.a)
 	set(client_LIBS
 		${PROJECT_NAME}
 		${ZLIB_LIBRARIES}
