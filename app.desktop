@@ -3,6 +3,6 @@ Name=Minetest
 Comment=Minetes game!
 Type=Application
 Icon=misc/minetest.svg
-Exec=bin/minetest
+Exec=minetest-startup.sh
 Terminal=false
 X-Ubuntu-Touch=true
