@@ -5,4 +5,5 @@ if [ ! -f /home/phablet/.cache/minetest.emanuelesorce/debug.txt ]; then
     echo "First launch! Copying files..."
     cp -r * /home/phablet/.cache/minetest.emanuelesorce/
 fi
-exec /home/phablet/.cache/minetest.emanuelesorce/bin/minetest
+cd /home/phablet/.cache/minetest.emanuelesorce
+exec bin/minetest
