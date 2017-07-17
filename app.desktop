@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Minetest
-Comment=Minetes game!
+Comment=Minetest game!
 Type=Application
 Icon=misc/minetest.svg
 Exec=minetest-startup.sh
