@@ -13,4 +13,4 @@ Then run in sequence build.sh and package.sh. You'll get the .click package file
 
 ## Known Issues
 
-As LibIrrlicht doesn't support yet running on X.orgless environment, everything here is just useless because at the end of the day the graphic engine will just crash
+As LibIrrlicht doesn't support yet running on X.orgless environment, everything here is just useless because at the end of the day the graphic engine will just crash. A solution might be adding the 'X-Ubuntu-XMir-Enable=TRUE' in the desktop file, but it doesn't work.
